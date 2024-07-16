@@ -11,7 +11,7 @@ const connection4 = mysql.createConnection({
 
 connection4.connect( (err) =>{
     if(err) {
-        console.error("Error en la conexion a la DB 4..." + process.env.HOST, err);
+        console.error("Error en la conexion a la Base de datos..." + process.env.PROYECTO_HOST, err);
         return;
     }
 

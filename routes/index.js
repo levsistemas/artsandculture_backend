@@ -22,7 +22,9 @@ router.get('/', (req, res) => {
                 <h1>Inicio de la pagina</h1>
                 <div>
                     <a href='/query/arts_and_culture'>VER BASE DE DATOS: ARTS & CULTURE</a>
-                    <input type="button" value="Conectar" id="conectar2">
+                </div>
+                <div>
+                    <a href='/query/arts_and_culture_total'>VER BASE DE DATOS: ARTS & CULTURE TOTAL</a>
                 </div>
             </div>
         </body>
